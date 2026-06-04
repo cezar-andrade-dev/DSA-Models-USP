@@ -1,0 +1,22 @@
+[project]
+name = "00-aulas"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "cezar-andrade-dev",email = "cezar.andrade.dev@gmail.com"}
+]
+package-mode = false
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=3.0.3,<4.0.0)",
+    "numpy (>=2.4.6,<3.0.0)",
+    "matplotlib (>=3.10.9,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "plotly (>=6.8.0,<7.0.0)"
+]
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
